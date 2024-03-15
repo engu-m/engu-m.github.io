@@ -1,0 +1,7 @@
+img.dark-border {
+    border: grey solid round
+}
+
+span.dark-bg {
+    background-color: #1e0010;
+}
