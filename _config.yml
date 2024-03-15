@@ -293,3 +293,25 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      monokai_css: /assets/css/monokai.css
+      base_style_css: /assets/css/base_style.css
+      sidebar:
+        - title: "Enguerrand Monard"
+          image: http://placehold.it/200x200
+          image_alt: "logo"
+          text: "Data scientist"
+        - title: "Responsibilities"
+          text: "Very important stuff"
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
