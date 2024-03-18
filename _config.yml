@@ -28,7 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 100
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -299,17 +299,14 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
+      read_time: true
+      toc: true
+      toc_sticky: true
       share: true
-      monokai_css: /assets/css/monokai.css
-      base_style_css: /assets/css/base_style.css
-      sidebar:
-        - title: "Enguerrand Monard"
-          image: http://placehold.it/200x200
-          image_alt: "logo"
-          text: "Data scientist"
-        - title: "Responsibilities"
-          text: "Very important stuff"
+      page_css:
+        - /assets/css/monokai.css
+        - /assets/css/base_style.css
 
 collections:
   portfolio:

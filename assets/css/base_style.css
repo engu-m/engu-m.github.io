@@ -1,7 +1,14 @@
 img.dark-border {
-    border: grey solid round
+    border: grey solid;
+    border-radius: 15px;
 }
 
-span.dark-bg {
+/* code elements inserted with `` */
+code.language-plaintext.highlighter-rouge {
+    background-color: #1e0010;
+    color: #f7f7f2;
+}
+
+.dark-bg {
     background-color: #1e0010;
 }
