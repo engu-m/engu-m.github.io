@@ -2,10 +2,8 @@
 title: "Escape room 🔐"
 excerpt: "An agent using Reinforcement Learning tries to escape a room and gets stuck."
 header:
-  image: /assets/images/header_escape_room.jpg
-  teaser: /assets/images/header_escape_room.jpg
-video_src: /assets/videos/Slideshow_Escape_Room_Project.mp4
-room_img: /assets/images/rooms.png
+  image: /assets/images/escape_room_header_upscaled.jpg
+  teaser: /assets/images/escape_room_header.jpg
 ---
 
 ## Introduction
@@ -19,7 +17,7 @@ In this game, the player is represented by the letter <span style="color: #66D9E
 Below are the seven rooms for this project.
 
 <figure>
-  <img src="{{page.room_img}}" alt="View of the seven rooms as shown on a terminal" width = "100%" class="dark-border">
+  <img src="/assets/images/escape_room_rooms.png" alt="View of the seven rooms as shown on a terminal" width = "100%" class="dark-border">
   <figcaption>In the first room, the player only needs to go to the left once. In the room 3, it must avoid its first obstacle. In the last two rooms, the door is locked and needs to be opened by first picking up the key.</figcaption>
 </figure>
 
@@ -27,7 +25,7 @@ Below are the seven rooms for this project.
 
 Because a picture is worth a thousand words, please find a presentation and demonstration below illustrating the whole learning process:
 
-<video src="{{page.video_src}}" width="100%" controls></video>
+<video src="/assets/videos/Slideshow_Escape_Room_Project.mp4" width="100%" controls></video>
 
 ## Technical considerations
 

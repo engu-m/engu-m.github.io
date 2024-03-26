@@ -1,5 +1,5 @@
 ---
-title: "FRanki 🇫🇷📝"
+title: "FRAnki 🇫🇷📝"
 excerpt: "Learn unknown french words with Anki"
 header:
   image: /assets/images/franki_header_upscaled.jpeg
@@ -86,6 +86,6 @@ There are several failure cases, especially for the definition retrieval. A good
 
 To make the experience more user-friendly and less developer-only, I shall build a web interface allowing to paste a list of words as plain text from your clipboard or any other textual data source, then display an editing interface for every card before building the deck, for there are frequent mismatches between the definition and the image. Finally, I could deploy it as web (or mobile?) application for everyone to use more easily.
 
-As a regular user, FRanki helped me learn 2138 words in two years. I can only think of all the benefits for non-native speakers!
+As a regular user, FRAnki helped me learn 2138 words in two years. I can only think of all the benefits for non-native speakers!
 
-To see the code and start using FRanki, head to <a href="https://github.com/engu-m/Escape-room">github</a>.
+To see the code and start using FRAnki, head to <a href="https://github.com/engu-m/Escape-room">github</a>.
