@@ -58,4 +58,5 @@ Two Reinforcement Learning agents have successfully been implemented in a modula
 
 The learning process could further be improved by providing the agent with more information on the environment than the sole current reward: by giving as input a screenshot of the game at every step, one could get closer to human behaviour, like DeepMind did by solving the Atari games.
 
-To see the code and read the pdf report, head to <a href="https://github.com/engu-m/Escape-room">github</a>.
+To see the code and read the pdf report, head to [github](https://github.com/engu-m/Escape-room).
+{: .notice}

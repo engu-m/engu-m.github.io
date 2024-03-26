@@ -88,4 +88,5 @@ To make the experience more user-friendly and less developer-only, I shall build
 
 As a regular user, FRAnki helped me learn 2138 words in two years. I can only think of all the benefits for non-native speakers!
 
-To see the code and start using FRAnki, head to <a href="https://github.com/engu-m/Escape-room">github</a>.
+To see the code and start using FRAnki, head to [github](https://github.com/engu-m/FRAnki).
+{: .notice}
