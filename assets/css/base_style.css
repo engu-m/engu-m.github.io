@@ -1,5 +1,5 @@
 img.dark-border {
-    border: grey solid;
+    border: grey solid 0.5px;
     border-radius: 15px;
 }
 
