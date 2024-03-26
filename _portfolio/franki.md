@@ -84,6 +84,8 @@ It is better not to download the thumbnail because it is usually not of very goo
 
 There are several failure cases, especially for the definition retrieval. A good improvement would be to make the scraper more robust, and even retrieve all definitions. But in that case, we miss a bit the point of Anki flashcards, which should not contain too much information.
 
-To make the experience more user-friendly and less developer-only, I shall build a web interface allowing to paste a list of words as plain text from your clipboard or any other textual data source, then display an editing interface for every card before building the deck, for there are frequent mismatches between the definition and the image.
+To make the experience more user-friendly and less developer-only, I shall build a web interface allowing to paste a list of words as plain text from your clipboard or any other textual data source, then display an editing interface for every card before building the deck, for there are frequent mismatches between the definition and the image. Finally, I could deploy it as web (or mobile?) application for everyone to use more easily.
 
 As a regular user, FRanki helped me learn 2138 words in two years. I can only think of all the benefits for non-native speakers!
+
+To see the code and start using FRanki, head to <a href="https://github.com/engu-m/Escape-room">github</a>.
