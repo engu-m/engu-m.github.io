@@ -8,7 +8,7 @@ header:
 
 ## Introduction
 
-In this little game, the player has to escape from a room using the directional keys. To play the game by yourself, head to the <a href="https://github.com/engu-m/Escape-room">project page</a> and follow the instructions.
+In this little game, the player has to escape from a room using the directional keys. To play the game by yourself, head to the [project page](https://github.com/engu-m/Escape-room) and follow the instructions.
 
 Seven rooms were designed, with increasing difficulty. It takes less than a minute for a human to solve all levels. But the true goal of the project is to use a computer to solve these levels programmatically. This is achieved using techniques known as Reinforcement Learning, where one trains an "agent" to solve a challenge using trial and error. The agent is free to move in all four directions, provided it stays within the bounds of the room. What the agent decides to do is called its policy.
   
