@@ -1,9 +1,9 @@
 ---
 title: "Co-stardom network 🎬"
-excerpt: "The _who-played-with-whom_ exploratory network"
+excerpt: "The who-played-with-whom exploratory network"
 header:
-  # image: /assets/images/
-  # teaser: /assets/images/
+  image: /assets/images/co_stardom_network_header_upscaled.png
+  teaser: /assets/images/co_stardom_network_header.png
 ---
 
 ## Introduction
@@ -17,6 +17,13 @@ The project is [live](https://actor-network-enguerrand-monard.koyeb.app/), have 
 
 The graph is interactive. Two actors are connected in the network if they both played in at least one movie.
 
+
+<figure>
+	<img src="/assets/images/co_stardom_network_demo.png" class="dark-border">
+	<figcaption>A screenshot of what the network looks like. Two actors were added: Emma Stone and Brad Pitt. We can visually identify the few actors who played with both of them. The view is filtered on Ryan Gosling. As he is selected, as well as his relationships with the other two, we get more insight in the bottom right panel.</figcaption>
+</figure>
+
+
 ### Adding actors
 
 Either search for your favorite actor in the appropriate input field and click [Add](#){: .btn .btn--success}, or hit <i class = "fa fa-dice"></i> to add a random actor.
@@ -27,15 +34,15 @@ You can click and drag nodes and edges anywhere. A selected node will appear in 
 
 ### Removing actors
 
-Hit <i class="fa fa-xmark"></i> to remove everyone.
+Hit <i class="fa fa-times"></i> to remove everbody from the graph.
 
-Hit <i class="fa fa-trash-can"></i> to remove the selected actors (those in red).
+Hit <i class="fa fa-trash"></i> to remove the selected actors (those in red).
 
 Hit <i class="fa fa-broom"></i> to clear actors with no relationships in the network.
 
 Alternatively, you can type the actor's name in the appropriate input field and hit [Remove](#){: .btn .btn--danger}.
 
-Instead of removing an actor, you can filter the view more easily with the automatic filtering text input <i class="fa fa-funnel"></i>.
+Instead of removing an actor, you can filter the view more easily with the automatic filtering text input <i class="fa fa-filter"></i>.
 
 
 ## Data source
@@ -77,7 +84,7 @@ The following tables show the first few lines of these files.
 |  5 | tt0000003 | nm0721526 | director        |
 
 
-Actors are uniquely identified by the `nconst` id, while movies are identified with the `tconst` id.
+Actors are uniquely identified by the `nconst` id, while movies are identified with the `tconst` id. The first two tables provide basic information, while the third one links the two identifiers.
 
 ## Design choices
 
