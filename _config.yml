@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-GB"
 title                    : "Portfolio"
 title_separator          : "-"
-subtitle                 : "Work in progress" # site tagline that appears below site title in masthead
+subtitle                 : "My best projects" # site tagline that appears below site title in masthead
 name                     : "Enguerrand Monard"
-description              : "Sharing projects I like in portfolio."
+description              : "Sharing projects I like best as a portfolio website."
 url                      : "https://engu-m.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "engu-m/engu-m.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -28,7 +28,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 100
+words_per_minute         : 150
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Enguerrand Monard"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a data science enthusiast."
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Data science enthusiast."
   location         : "Paris, France"
   email            :
   links:
@@ -130,7 +130,7 @@ author:
       # url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/enguerrand-monard-5050bb170/?locale=en_US"
+      url: "https://www.linkedin.com/in/enguerrand-monard-5050bb170/"
 
 # Site Footer
 footer:
@@ -143,7 +143,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/engu-m"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -221,14 +221,15 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  # - jekyll-paginate
+  - jekyll-target-blank
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -236,7 +237,8 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  # - jekyll-paginate
+  - jekyll-target-blank
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
